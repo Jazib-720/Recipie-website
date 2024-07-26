@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+header {
+    margin-top: 0px;
+    margin-left: 0px;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #83a7a5;
+}
+
+a {
+    list-style: none;
+    text-decoration: none; 
+    color: aliceblue;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 0px;
+    margin-left: 0px;
+    height: 30px;
+    width: 100%;
+    background-color: #83a7a5;
+    text-align: center;
+    overflow: none;
+}
+
+.menu {
+    display: inline-block;
+    padding-left: 1000px;
+    word-spacing: 15px;
+    font-size: large;
+    list-style: none;
+    color: #fdfbfb;
+    text-decoration: inherit;
+    list-style: none;
+}
+
+nav {
+    margin: 10px;
+    padding: 10px;
+}
+
+#logo {
+    margin: 400px;
+    font-size: x-large;
+    color: beige;
+    font-weight: bold;
+}
+
+.main {
+    flex-direction: column;
+    border: solid black 1px;
+    width: 1225px;
+    height: 100%;
+    box-shadow: 0px 0px 30px black;
+    margin: 10px;
+    padding: 10px;
+    overflow-y: none;
+    /* margin-bottom: 80px; */
+}
+
+.leftbox {
+    margin: 10px;
+    text-align: center;
+}
+
+.leftbox h3 {
+    padding-left: -10px;
+    text-align: start;
+}
+
+#dish1 {
+    display: flex;
+    flex-direction: row;
+}
+
+#list1 {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    word-spacing: 10px;
+    line-height: 1.5;
+    text-align: start;
+    font-size: large;
+}
+
+.rightbox {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+}
+
+.rightbox img {
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    padding-left: 400px;
+    padding-top: 50px;
+    transition: all 0.4s linear 0.1s;
+    border-radius: 20px;
+    display: block;
+}
+
+.rightbox .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 5px;
+    width: 1px;
+
+    margin: 10px;
+    padding-left: 400px;
+    padding-top: 100px;
+
+    background-color: rgba(136, 93, 93, 0.713);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.3s linear 0s;
+}
+
+.rightbox .overlay span {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.rightbox:hover img {
+    transform: scale(1.2);
+}
+
+.rightbox:hover .overlay {
+    opacity: 1;
+}
+
+.img2 {
+    margin-right: 200px;
+}
+
+.rightbox h2 {
+    align-items: center;
+    color: rgb(144, 79, 144);
+    margin: 10px;
+    padding-left: 460px;
+    padding-top: 30px;
+}
